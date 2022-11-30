@@ -1,0 +1,25 @@
+.hero {
+    margin: 50px auto 0px;
+    text-align: center;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    margin-left: 20px;
+
+}
+
+.hero-bis {
+    display: flex;
+    max-width:100vh
+}
+
+.cnam2038 {
+    margin-left: 100px;
+    margin-top: 100px;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
