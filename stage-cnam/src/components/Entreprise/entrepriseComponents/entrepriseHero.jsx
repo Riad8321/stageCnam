@@ -5,4 +5,3 @@ export default function entrepriseHero() {
     <div>entrepriseHero</div>
   )
 }
-
