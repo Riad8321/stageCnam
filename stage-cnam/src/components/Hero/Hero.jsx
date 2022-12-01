@@ -5,7 +5,7 @@ import region from '../../assets/Logo-Region-min.jpg'
 import tvt from '../../assets/Logo-Tvt-min.png'
 import tpm from '../../assets/Logo-Tpm-min.png'
 import lft from '../../assets/Logo-Lft-min.png'
-import heroImage from '../../assets/hero-image.jpg'
+import imgRightIntroduction from '../../assets/imgRightIntroduction.png'
 
 
 import '../Hero/hero.css'
@@ -25,12 +25,10 @@ export default function Hero() {
                 <img className='tpm' src={tpm} alt="tpm" />
             </div>
             <div className="hero-text">
-                <h2></h2>
-                <p>Bonjour, moi c'est Riad, j'ai effectué mon stage dans la société La Boite Immo, située à Hyères </p>
-                <p></p>
-            </div>
-            <div className="hero-image">
-            <img className='heroImage' src={heroImage} alt="heroImage" />
+                <h2>Bonjour, c'est Riad 👋🏼</h2>
+                <p>J'ai effectué mon stage dans la société La Boite Immo, située à Hyères </p>
+                <p><span>La Boîte Immo,</span> spécialiste dans la conception de sites immobiliers, de logiciel immobilier adapté à vos besoins et de référencement en 1ère page de Google</p>
+                <img className='imgRightIntroduction' src={imgRightIntroduction} alt="imgRightIntroduction" />
             </div>
         </div>
     </>

@@ -8,18 +8,45 @@
     flex-direction: column;
     width: 90px;
     margin-left: 20px;
-
+    transform: translateY(50px);
 }
 
 .hero-bis {
+    margin-top: 70px;
     display: flex;
-    max-width:100vh
+    height: 25rem;
+
 }
 
-.cnam2038 {
-    margin-left: 100px;
-    margin-top: 100px;
-    font-weight: 300;
-    font-size: 2rem;
+.hero-text {
+    color: rgb(22, 21, 21);
+    border-radius: 1rem;
+    padding: 40px;
+    padding-right: 100px;
+    margin: auto;
+    background: #dbdbdb;
+    width: 31.25rem;
+    height: 18.75rem;
+    transform: translateX(-150px);
 }
 
+.imgRightIntroduction {
+    max-width: 100%;
+    max-height: 100%;
+    transform: translate(415px, -105px)
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.063rem;
+    margin-top: 10px;
+}
+
+span {
+    color: #bed000;
+    font-size: large;
+    font-weight: bolder;
+}
