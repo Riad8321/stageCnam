@@ -1,5 +1,5 @@
 .hero {
-    margin: 50px auto 0px;
+    margin: 70px auto 0px;
     text-align: center;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .hero-bis {
-    margin-top: 70px;
+    margin-top: 50px;
     display: flex;
     height: 25rem;
 
@@ -24,16 +24,17 @@
     padding: 40px;
     padding-right: 100px;
     margin: auto;
-    background: #dbdbdb;
-    width: 31.25rem;
-    height: 18.75rem;
+    background: linear-gradient(80deg,#89ba26,#bed000);
+    width: 38.25rem;
+    height: 22.75rem;
     transform: translateX(-150px);
+    box-shadow: 0 20px 40px 0 rgb(64 82 124 / 16%);
 }
 
 .imgRightIntroduction {
     max-width: 100%;
     max-height: 100%;
-    transform: translate(415px, -105px)
+    transform: translate(460px, -105px);
 }
 
 h2 {
@@ -46,7 +47,7 @@ p {
 }
 
 span {
-    color: #bed000;
+    color: #333;
     font-size: large;
     font-weight: bolder;
 }
