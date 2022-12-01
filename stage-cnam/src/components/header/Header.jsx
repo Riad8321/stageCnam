@@ -1,6 +1,6 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 import logoWeb from '../../assets/logoWeb.png'
+import entreprise from '../Entreprise/Entreprise'
 import '../header/header.css'
 export default function Header() {
   return (
@@ -11,7 +11,7 @@ export default function Header() {
             <a href={"#"}>HOME</a>
             </li>
            <li>
-            <a href={"#"}>ENTREPRISE</a>
+           <a href={"#"}>ENTREPRISE</a>
             </li>
            <li>
             <a href={"#"}>STAGE</a>
