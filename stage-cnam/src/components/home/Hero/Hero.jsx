@@ -25,7 +25,7 @@ export default function Hero() {
             <div className="hero-text">
                 <h2>Bonjour, c'est Riad 👋🏼</h2>
                 <p>J'ai effectué mon stage dans la société La Boite Immo, située à Hyères </p>
-                <p><span>La Boîte Immo,</span> spécialiste dans la conception de sites immobiliers, de logiciel immobilier adapté à vos besoins et de référencement en 1ère page de Google</p>
+                <p><span>La Boîte Immo,</span> spécialiste dans la conception de sites immobiliers, de logiciel immobilier adapté leurs besoins et de référencement en 1ère page de Google</p>
                 <img className='imgRightIntroduction' src={imgRightIntroduction} alt="imgRightIntroduction" />
             </div>
         </div>
