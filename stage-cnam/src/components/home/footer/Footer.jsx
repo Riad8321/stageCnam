@@ -1,6 +1,6 @@
 import React from 'react'
-import skyline from '../../assets/skyline.png'
-import '../header/footer.css'
+import skyline from '../../../assets/skyline.png'
+import './footer.css'
 
 export default function Footer() {
   return (
