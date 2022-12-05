@@ -35,6 +35,7 @@ a:active {
 }
 
 a:hover {
+    color: #bed000;
     text-decoration: underline;
     text-decoration-color:#bed000;
 }

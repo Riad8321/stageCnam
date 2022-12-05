@@ -1,14 +1,12 @@
 import React from 'react'
-import logo from '../../assets/laboiteimmo.png'
-import cnam from '../../assets/Logo-Cnam-min.jpg'
-import region from '../../assets/Logo-Region-min.jpg'
-import tvt from '../../assets/Logo-Tvt-min.png'
-import tpm from '../../assets/Logo-Tpm-min.png'
-import lft from '../../assets/Logo-Lft-min.png'
-import imgRightIntroduction from '../../assets/imgRightIntroduction.png'
-
-
-import '../Hero/hero.css'
+import logo from '../../../assets/laboiteimmo.png'
+import cnam from '../../../assets/Logo-Cnam-min.jpg'
+import region from '../../../assets/Logo-Region-min.jpg'
+import tvt from '../../../assets/Logo-Tvt-min.png'
+import tpm from '../../../assets/Logo-Tpm-min.png'
+import lft from '../../../assets/Logo-Lft-min.png'
+import imgRightIntroduction from '../../../assets/imgRightIntroduction.png'
+import './hero.css'
 
 export default function Hero() {
   return (

@@ -1,23 +1,26 @@
 import React from 'react'
-import logoWeb from '../../assets/logoWeb.png'
-import entreprise from '../Entreprise/Entreprise'
-import '../header/header.css'
+import { Link } from 'react-router-dom'
+import logoWeb from '../../../assets/logoWeb.png'
+import entreprise from '../../Entreprise/Entreprise'
+import './header.css'
 export default function Header() {
   return (
+    <main>
     <nav className='nav-bar'>
        <img className='logoWeb' src={logoWeb} alt="logo" />
        <ul className='menu-center'>
            <li>
-            <a href={"#"}>HOME</a>
+           <Link to="/">HOME</Link>
             </li>
            <li>
-           <a href={"#"}>ENTREPRISE</a>
+           <Link to="/entreprise">ENTREPRISE</Link>
             </li>
            <li>
-            <a href={"#"}>STAGE</a>
+           <Link to="/stage">STAGE</Link>
             </li> 
        </ul>
     </nav>
+    </main>
   )
 }
 

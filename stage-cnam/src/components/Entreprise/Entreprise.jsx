@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../header/Header'
+import Header from '../home/header/Header'
 import Hero from '../Entreprise/entrepriseComponents/entrepriseHero'
 
 export default function entreprise() {
@@ -7,6 +7,7 @@ export default function entreprise() {
     <div>
         <Header /> 
         <Hero />
+        <h1>TESTTTTT</h1>
     </div>
   )
 }
