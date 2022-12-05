@@ -11,11 +11,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.4",
     "react-scripts": "5.0.1",
-<<<<<<< HEAD
     "react-slick": "^0.29.0",
-=======
-    "react-slideshow-image": "^4.0.5",
->>>>>>> f34b4d33f48c475822188b7ba5080823b448d62f
     "web-vitals": "^2.1.4"
   },
   "scripts": {
