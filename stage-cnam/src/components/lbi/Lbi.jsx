@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import video from '../../assets/video.mp4'
-import './stage.css'
+import './lbi.css'
 
 export default class SimpleSlider extends Component {
   render() {
