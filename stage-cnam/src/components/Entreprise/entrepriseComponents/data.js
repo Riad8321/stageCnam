@@ -216,7 +216,7 @@ const items = [
           },
         cardTitle: "Juin 2020",
         cardSubtitle: "Nouvea siège social - 2000 m² - HYERES",
-        cardDetailedText: `150 salariés, la PME fondée par Olivier Bugette, simplifie le métier des professionnels de l'immobilier. Actrice reconnue et engagée du monde de l'immobilier, l'agence de webmarketing s'est tournée exclusivement vers l'immobilier, en fournissant des solutions informatiques aux professionnels des agences immobilières, leur permettant, ainsi, de faciliter la vente et la gestion des biens et des clients.
+        cardDetailedText: `150 salariés, 12 535 000 € chiffre d'affaire en 2019, la PME fondée par Olivier Bugette, simplifie le métier des professionnels de l'immobilier. Actrice reconnue et engagée du monde de l'immobilier, l'agence de webmarketing s'est tournée exclusivement vers l'immobilier, en fournissant des solutions informatiques aux professionnels des agences immobilières, leur permettant, ainsi, de faciliter la vente et la gestion des biens et des clients.
 
         « Le cœur de métier de la société est de démocratiser les technologies web les plus pointues, afin de les rendre accessibles aux professionnels de l'immobilier qui doivent s'adapter face aux enjeux du digital et aux nouveaux comportements des consommateurs », explique le PDG.
         https://lagazetteduvar.fr/a-la-une/olivier-bugette.html`
@@ -234,22 +234,8 @@ const items = [
           },
         cardTitle: "Olivier Bugette",
         cardSubtitle: "PRÉSIDENT DIRECTEUR GÉNÉRAL",
-        cardDetailedText: `150 salariés`
+        cardDetailedText: ``
       },
-      {
-        title: "COLLABORATEURS",
-        media: {
-            name: "Collaborateurs",
-            source: {
-              url:
-                ".."
-            },
-            type: "IMAGE"
-          },
-        cardTitle: "Olivier Bugette",
-        cardSubtitle: "PRÉSIDENT DIRECTEUR GÉNÉRAL",
-        cardDetailedText: `150 salariés`
-      },   
 ];
   
 export default items;
