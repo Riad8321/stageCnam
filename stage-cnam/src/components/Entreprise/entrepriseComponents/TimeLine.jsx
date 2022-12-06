@@ -9,11 +9,11 @@ export default function TimeLine() {
           items={data}
 
           theme={{
-            primary: '#bed000',
-            secondary: 'black',
+            primary: 'black',
+            secondary: 'white',
             cardBgColor: 'white',
             cardForeColor: 'black',
-            titleColor: 'black',
+            titleColor: '#bed000',
             titleColorActive: 'white',
           }}
       
