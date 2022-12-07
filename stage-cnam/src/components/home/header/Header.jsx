@@ -11,14 +11,17 @@ export default function Header() {
            <li>
            <Link to="/">HOME</Link>
             </li>
+            <li>
+           <Link to="/lbi">LBI</Link>
+            </li>
            <li>
            <Link to="/entreprise">ENTREPRISE</Link>
             </li>
-           <li>
-           <Link to="/lbi">LBI</Link>
-            </li>
             <li>
            <Link to="/metier">LE MÉTIER</Link>
+            </li>
+            <li>
+           <Link to="/bilan">BILAN</Link>
             </li>
        </ul>
     </nav>

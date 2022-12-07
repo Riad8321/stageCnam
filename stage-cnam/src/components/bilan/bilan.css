@@ -1,0 +1,12 @@
+.animate__animated {
+    --animate-delay: 2s;
+}
+
+.bilan-img {
+    display: block;
+    margin: auto;
+}
+
+.bilan-image {
+    margin: 70px auto;
+}

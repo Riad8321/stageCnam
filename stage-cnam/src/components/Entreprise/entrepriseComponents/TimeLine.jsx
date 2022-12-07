@@ -1,10 +1,11 @@
 import React from 'react'
 import { Chrono } from "react-chrono";
 import data from "./data";
+import './time-line.css'
 
 export default function TimeLine() {
   return (
-        <div style={{ width: "100%", height: "90vh" }}>
+        <div className='timeLine-component' style={{ width: "100%", height: "100vh" }}>
         <Chrono
           items={data}
 
@@ -14,7 +15,7 @@ export default function TimeLine() {
             cardBgColor: 'white',
             cardForeColor: 'black',
             titleColor: '#bed000',
-            titleColorActive: 'white',
+            titleColorActive: 'black',
           }}
       
 
