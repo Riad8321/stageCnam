@@ -10,3 +10,11 @@
 .bilan-image {
     margin: 70px auto;
 }
+.h1-bilan {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.p-bilan {
+    padding: 0 20% 20% 20%;
+}

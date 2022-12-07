@@ -60,14 +60,14 @@ export default function LeMetier() {
             Le métier de développeur web est exigeant et nécessite de maîtriser de nombreux outils et technologies pour réussir. Que ce soit en équipe ou en freelance, le développeur web doit être rigoureux, autonome et avoir une solide culture web et des tendances internet.
             <br/><br/><span className='span-metier'>Voici quelques qualités et compétences communes aux développeurs web :</span>
             <br/><br/>- Connaissance des langages de programmation web, tels que HTML, CSS, JavaScript et PHP
-            <br/><br/>- Connaissance des frameworks et bibliothèques populaires, comme AngularJS, React et Ruby on Rails
-            <br/><br/>- Capacité à travailler en équipe et à communiquer efficacement avec les membres de l'équipe
-            <br/><br/>- Capacité à résoudre des problèmes complexes et à trouver des solutions créatives
-            <br/><br/>- Capacité à apprendre de nouvelles technologies et compétences rapidement
-            <br/><br/>- Connaissance des normes et des meilleures pratiques en matière de développement web
-            <br/><br/>- Bonne compétence en matière de gestion de projet et de planification des tâches
-            <br/><br/>- Bonne compétence en matière de résolution de bugs et de tests
-            <br/><br/>- Bonne maîtrise des outils de développement web, tels que les éditeurs de code et les outils de gestion de versions.
+            <br/>- Connaissance des frameworks et bibliothèques populaires, comme AngularJS, React et Ruby on Rails
+            <br/>- Capacité à travailler en équipe et à communiquer efficacement avec les membres de l'équipe
+            <br/>- Capacité à résoudre des problèmes complexes et à trouver des solutions créatives
+            <br/>- Capacité à apprendre de nouvelles technologies et compétences rapidement
+            <br/>- Connaissance des normes et des meilleures pratiques en matière de développement web
+            <br/>- Bonne compétence en matière de gestion de projet et de planification des tâches
+            <br/>- Bonne compétence en matière de résolution de bugs et de tests
+            <br/>- Bonne maîtrise des outils de développement web, tels que les éditeurs de code et les outils de gestion de versions.
             <br/><br/>Il existe bien d'autres qualités et compétences qui peuvent être utiles pour un développeur web, mais celles-ci sont considérées comme les plus importantes.
           </p>
         </div>

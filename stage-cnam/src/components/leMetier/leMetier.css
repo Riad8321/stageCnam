@@ -10,7 +10,7 @@
 
 .p-metier {
     padding: 0 100px 0 40px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .side-menu {
@@ -18,8 +18,8 @@
     flex-direction: column;
     justify-content: space-between;
    /* border: 3px solid black; */
-    height: 550px;
-    width: 380px;
+    height: 70%;
+    width: 24%;
     border-radius: 2px;
     margin-left: 50px;
     padding: 30px 10px 30px 20px;
