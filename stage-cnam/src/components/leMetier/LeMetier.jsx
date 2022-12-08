@@ -211,7 +211,7 @@ export default function LeMetier() {
         
       <div className="side-menu">
         <div className="aaa">⸱ Développeur web</div>
-        <div className="aaa">⸱ éveloppeur Backend</div>
+        <div className="aaa">⸱ Développeur Backend</div>
         <div className="aaa">⸱ Développeur Frontend</div>
         <div className="aaa">⸱ Développeur Fullstack</div>
         <div className="aaa">⸱ Comment le devenir ?</div>
