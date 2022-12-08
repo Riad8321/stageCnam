@@ -6,7 +6,9 @@ export default function LeMetier() {
   return (
     <div className="le-metier">
       <Header />
-      <div className="right-side">
+      <div className="div-metier">
+
+        <div className="right-side">
         <div className="developpeur">
           <h1 className='h1-metier'>Développeur web 👨‍💻</h1>
           <p className='p-metier'>
@@ -207,20 +209,7 @@ export default function LeMetier() {
           </table>
         </div>
       </div>
-        
-        
-      <div className="side-menu">
-        <div className="aaa">⸱ Développeur web</div>
-        <div className="aaa">⸱ Développeur Backend</div>
-        <div className="aaa">⸱ Développeur Frontend</div>
-        <div className="aaa">⸱ Développeur Fullstack</div>
-        <div className="aaa">⸱ Comment le devenir ?</div>
-        <div className="aaa">⸱ Les qualités et compétences</div>
-        <div className="aaa">⸱ le salaire</div>
-        <div className="aaa">⸱ Une journée d'un développeur</div>
-        <div className="aaa">⸱ Scrum Agile </div>
-        <div className="aaa">⸱ Conclusion </div>
       </div>
-    </div>
+      </div>
   )
 }
