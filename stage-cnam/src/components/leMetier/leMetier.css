@@ -20,20 +20,21 @@
    /* border: 3px solid black; */
     height: 70%;
     width: 24%;
-    border-radius: 2px;
+    border-radius: 8px;
     margin-left: 50px;
     padding: 30px 10px 30px 20px;
-    font-size: 1.3rem;
-    background-color: rgb(236, 231, 231);
-    position: fixed; /* Fixed/sticky position */
-    top: 150px; /* Place the button at the bottom of the page */
-    left: 30px; /* Place the button 30px from the right */
+    font-size: 1.2rem;
+    background-color: #333;
+    position: fixed;
+    top: 150px;
     z-index: 99;
+    box-shadow: -7px 7px 2px 0px rgba(0,0,0,0.1);
 }
 
 .aaa {
     margin-bottom: 20px;
     font-weight: bold;
+    color:azure;
 }
 
 .aaa:hover {
@@ -49,4 +50,12 @@
 .span-source {
    font-style: italic;
    font-weight: 200;
+}
+.table {
+    margin: 30px 40px;
+    text-align: center;
+}
+
+.h3-metier {
+    transform: translateX(-200px);
 }

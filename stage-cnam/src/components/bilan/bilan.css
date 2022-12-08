@@ -2,19 +2,22 @@
     --animate-delay: 2s;
 }
 
-.bilan-img {
-    display: block;
-    margin: auto;
-}
 
-.bilan-image {
-    margin: 70px auto;
-}
+
+
 .h1-bilan {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .p-bilan {
-    padding: 0 20% 20% 20%;
+    padding: 70px 27% 4% 27%;
+}
+
+.h2-bilan2 {
+    text-align: center;
+}
+
+.p-bilan2 {
+    text-align: center;
 }
