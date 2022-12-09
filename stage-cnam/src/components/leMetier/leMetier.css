@@ -13,27 +13,30 @@
     font-size: 1.2rem;
 }
 
+.div-metier {
+    display: flex;
+    width: 100vW;
+}
+
 .side-menu {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
    /* border: 3px solid black; */
-    height: 70%;
-    width: 24%;
-    border-radius: 2px;
+    height: 700px;
+    width: 300px;
+    border-radius: 8px;
     margin-left: 50px;
     padding: 30px 10px 30px 20px;
-    font-size: 1.3rem;
-    background-color: rgb(236, 231, 231);
-    position: fixed; /* Fixed/sticky position */
-    top: 150px; /* Place the button at the bottom of the page */
-    left: 30px; /* Place the button 30px from the right */
-    z-index: 99;
+    font-size: 1.2rem;
+    background-color: #333;
+    box-shadow: -7px 7px 2px 0px rgba(0,0,0,0.1);
 }
 
 .aaa {
     margin-bottom: 20px;
     font-weight: bold;
+    color:azure;
 }
 
 .aaa:hover {
@@ -42,11 +45,18 @@
 }
 
 .right-side {
-    margin-left: 32%;
-    margin-bottom: 200px;
+    margin: 50px 200px 50px 200px;
 }
 
 .span-source {
    font-style: italic;
    font-weight: 200;
+}
+.table {
+    margin: 30px 40px;
+    text-align: center;
+}
+
+.h3-metier {
+    transform: translateX(-200px);
 }

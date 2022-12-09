@@ -2,16 +2,12 @@
     --animate-delay: 2s;
 }
 
-.bilan-img {
-    display: block;
-    margin: auto;
-}
 
-.bilan-image {
-    margin: 70px auto;
-}
+
+
 .h1-bilan {
     text-align: center;
+<<<<<<< HEAD
     margin: 50px 0;
 }
 
@@ -19,3 +15,19 @@
     padding: 0 20% 20% 20%;
     font-size: 1rem;
 }
+=======
+    margin-top: 70px;
+}
+
+.p-bilan {
+    padding: 70px 27% 4% 27%;
+}
+
+.h2-bilan2 {
+    text-align: center;
+}
+
+.p-bilan2 {
+    text-align: center;
+}
+>>>>>>> c2a254e717c0b353f85fb272e50514bc2e90ff97

@@ -6,7 +6,9 @@ export default function LeMetier() {
   return (
     <div className="le-metier">
       <Header />
-      <div className="right-side">
+      <div className="div-metier">
+
+        <div className="right-side">
         <div className="developpeur">
           <h1 className='h1-metier'>Développeur web 👨‍💻</h1>
           <p className='p-metier'>
@@ -80,18 +82,134 @@ export default function LeMetier() {
             </p>
         </div>
 
+        <div className="journee">
+          <h2 className="h2-metier">Un exemple d'une journée d'un développeur</h2>
+          <p className="p-metier">
+          Au début de la journée, l'équipe se réunit pour discuter des tâches à accomplir et des problèmes à résoudre. Cette réunion quotidienne permet de coordonner les efforts et d'assurer une bonne communication entre les membres de l'équipe.
+          Ensuite, chacun se met au travail pour mettre en œuvre des solutions techniques et résoudre des problèmes techniques.
+            <br/><br/>Toutes les deux semaines, l'équipe se réunit à nouveau pour lancer des sprints (des périodes de travail pour accomplir un certain nombre de tâches), évaluer les progrès réalisés et discuter des éléments à améliorer. Pendant cette réunion, l'équipe établit une liste de tâches à accomplir pour les deux prochaines semaines, en les estimant en termes de temps et de complexité. Ils font également le bilan des deux dernières semaines en discutant des tâches accomplies, des points forts et des points à améliorer, et en prenant note des remarques et des suggestions.
+          </p>
+        </div>
+
+        <div className="scrum">
+          <h2 className="h2-metier">Scrum Agile, c'est quoi ?</h2>
+          <p className="p-metier">Le Scrum est une méthodologie agile qui vise à améliorer la flexibilité, la collaboration et la qualité des projets de développement de logiciels. Cette approche se concentre sur la livraison rapide et continue de produits de qualité en gérant les projets en petites étapes appelées "sprints".
+          <br/><br/>Dans le cadre de Scrum, les développeurs web travaillent en équipe pour définir les tâches à accomplir et les problèmes à résoudre lors de chaque sprint. Ces tâches sont regroupées dans un "backlog", qui est une liste ordonnée des choses à faire. L'équipe se réunit chaque jour pour discuter des progrès accomplis et des obstacles rencontrés, dans une réunion appelée "daily stand-up".
+          <br/><br/>Le Scrum met également l'accent sur la communication fréquente et la rétrospective continue pour évaluer les progrès et identifier les opportunités d'amélioration. À la fin de chaque sprint, l'équipe se réunit pour une rétrospective, dans laquelle ils discutent des éléments positifs et négatifs de la sprint passée, et élaborent un plan pour améliorer les performances lors de la sprint suivante.
+          <br/><br/>En somme, le Scrum est une approche agile pour les développeurs web qui leur permet de travailler de manière plus efficace et plus flexible, en offrant un meilleur soutien à la collaboration et à la qualité des produits. Grâce à cette méthodologie, les développeurs peuvent mieux gérer leur temps et leur travail, en s'assurant que les tâches les plus importantes sont priorisées et réalisées de manière efficace.
+          </p>
+        </div>
+
+          <div className="div table">
+            <h3 className='h3-metier'>Tableau KANBAN</h3>
+            <table border={1} cellPadding={1} cellSpacing={0} id="sheet0" className="sheet0 gridlines">
+            <colgroup><col className="col0" />
+              <col className="col1" />
+              <col className="col2" />
+              <col className="col3" />
+              <col className="col4" />
+              <col className="col5" />
+              <col className="col6" />
+              <col className="col7" />
+              <col className="col8" />
+              <col className="col9" />
+              <col className="col10" />
+              <col className="col11" />
+              <col className="col12" />
+            </colgroup><tbody>
+              <tr className="row0">
+                <td className="column0 style1 null" />
+                <td className="column1 style2 s style3" colSpan={2}>TO DO</td>
+                <td className="column3 style2 s style3" colSpan={2}>IN PROGRESS</td>
+                <td className="column5 style4 s">REVIEW</td>
+                <td className="column6 style2 s style3" colSpan={2}>RECETTE DEV</td>
+                <td className="column8 style2 s style3" colSpan={2}>RECETTE STAGING</td>
+                <td className="column10 style2 s style3" colSpan={2}>PROD</td>
+                <td className="column12 style4 s">DONE</td>
+              </tr>
+              <tr className="row1">
+                <td className="column0 style5 s">🔥</td>
+                <td className="column1 style6 null style3" colSpan={2} />
+                <td className="column3 style6 null style3" colSpan={2} />
+                <td className="column5 style7 null" />
+                <td className="column6 style4 s">OK</td>
+                <td className="column7 style4 s">KO</td>
+                <td className="column8 style4 s">OK</td>
+                <td className="column9 style4 s">KO</td>
+                <td className="column10 style4 s">A LIVRER</td>
+                <td className="column11 style4 s">CHECK</td>
+                <td className="column12 style7 null" />
+              </tr>
+              <tr className="row2">
+                <td className="column0 style8 s">FEATURES</td>
+                <td className="column1 style9 null style3" colSpan={2} />
+                <td className="column3 style9 null style3" colSpan={2} />
+                <td className="column5 style1 null" />
+                <td className="column6 style1 null" />
+                <td className="column7 style1 null" />
+                <td className="column8 style1 null" />
+                <td className="column9 style1 null" />
+                <td className="column10 style1 null" />
+                <td className="column11 style1 null" />
+                <td className="column12 style1 null" />
+              </tr>
+              <tr className="row3">
+                <td className="column0 style8 s">TMA</td>
+                <td className="column1 style9 null style3" colSpan={2} />
+                <td className="column3 style9 null style3" colSpan={2} />
+                <td className="column5 style1 null" />
+                <td className="column6 style1 null" />
+                <td className="column7 style1 null" />
+                <td className="column8 style1 null" />
+                <td className="column9 style1 null" />
+                <td className="column10 style1 null" />
+                <td className="column11 style1 null" />
+                <td className="column12 style1 null" />
+              </tr>
+              <tr className="row4">
+                <td className="column0 style8 s">DETTE TECH</td>
+                <td className="column1 style9 null style3" colSpan={2} />
+                <td className="column3 style9 null style3" colSpan={2} />
+                <td className="column5 style1 null" />
+                <td className="column6 style1 null" />
+                <td className="column7 style1 null" />
+                <td className="column8 style1 null" />
+                <td className="column9 style1 null" />
+                <td className="column10 style1 null" />
+                <td className="column11 style1 null" />
+                <td className="column12 style1 null" />
+              </tr>
+              <tr className="row5">
+                <td className="column0 style8 s">CI/CD</td>
+                <td className="column1 style9 null style3" colSpan={2} />
+                <td className="column3 style9 null style3" colSpan={2} />
+                <td className="column5 style1 null" />
+                <td className="column6 style1 null" />
+                <td className="column7 style1 null" />
+                <td className="column8 style1 null" />
+                <td className="column9 style1 null" />
+                <td className="column10 style1 null" />
+                <td className="column11 style1 null" />
+                <td className="column12 style1 null" />
+              </tr>
+              <tr className="row6">
+                <td className="column0 style8 s">OUTILS INTERNES</td>
+                <td className="column1 style9 null style3" colSpan={2} />
+                <td className="column3 style9 null style3" colSpan={2} />
+                <td className="column5 style1 null" />
+                <td className="column6 style1 null" />
+                <td className="column7 style1 null" />
+                <td className="column8 style1 null" />
+                <td className="column9 style1 null" />
+                <td className="column10 style1 null" />
+                <td className="column11 style1 null" />
+                <td className="column12 style1 null" />
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
-        
-        
-      <div className="side-menu">
-        <div className="aaa">- Développeur web</div>
-        <div className="aaa">- Développeur Backend</div>
-        <div className="aaa">- Développeur Frontend</div>
-        <div className="aaa">- Développeur Fullstack</div>
-        <div className="aaa">- Comment le devenir ?</div>
-        <div className="aaa">- Les qualités et compétences</div>
-        <div className="aaa">- le salaire</div>
       </div>
-    </div>
+      </div>
   )
 }
