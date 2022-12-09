@@ -9,8 +9,7 @@ export default function Bilan() {
   return (
     <>
         <Header />
-        <h1 className='h1-bilan'>Le bilan de cette immersion</h1>
-        <h2 className="h2-bilan animate__animated animate__shakeY">Oui carrément</h2>
+        <h1 className='h1-bilan animate__animated animate__bounceIn'>Le bilan de cette immersion</h1>
         <p className="p-bilan">
         J'ai toujours été passionné par les nouvelles technologies et le développement web, et c'est pour cette raison que j'ai choisi de faire un stage d'observation dans une société de développement web.
         <br/><br/>Lors de mon stage, j'ai eu la chance de travailler avec une équipe de développeurs talentueux et expérimentés. Dès mon arrivée, ils m'ont accueillie chaleureusement et m'ont présenté les différents projets sur lesquels ils travaillaient. Ils m'ont également expliqué en détail comment fonctionnait leur société et leur processus de développement.

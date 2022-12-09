@@ -12,9 +12,10 @@
 }
 .h1-bilan {
     text-align: center;
-    margin-top: 50px;
+    margin: 50px 0;
 }
 
 .p-bilan {
     padding: 0 20% 20% 20%;
+    font-size: 1rem;
 }
