@@ -210,7 +210,7 @@ const items = [
             name: "FolaBoiteImmo",
             source: {
               url:
-                "https://www.la-boite-immo.com/blog/wp-content/uploads/2013/06/bureau-la-boite-immo.jpg"
+                "https://www.la-boite-immo.com/assets/img/modules/laBoite/module_introduction/imgLaBoite_1.jpg"
             },
             type: "IMAGE"
           },
@@ -228,7 +228,7 @@ const items = [
             name: "PDG",
             source: {
               url:
-                "https://media-exp1.licdn.com/dms/image/C4E03AQHh23XB0-iemw/profile-displayphoto-shrink_800_800/0/1516233269691?e=2147483647&v=beta&t=riAn1bfxQRGATP8fLepF8YJqkX75p4qHdYxQfm_BbO0"
+                "https://www.la-boite-immo.com/blog/wp-content/uploads/2019/02/IMG_1226-Immomatin.jpg"
             },
             type: "IMAGE"
           },

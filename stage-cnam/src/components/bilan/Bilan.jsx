@@ -8,11 +8,7 @@ export default function Bilan() {
   return (
     <>
         <Header />
-<<<<<<< HEAD
-        <h1 className='h1-bilan animate__animated animate__bounceIn'>Le bilan de cette immersion</h1>
-=======
         <h1 className='h1-bilan'>Le bilan de cette immersion</h1>
->>>>>>> c2a254e717c0b353f85fb272e50514bc2e90ff97
         <p className="p-bilan">
         <span>J</span>'ai toujours été passionné par les nouvelles technologies et le développement web, et c'est pour cette raison que j'ai choisi de faire un stage d'observation dans une société de développement web.
         <br/><br/>Lors de mon stage, j'ai eu la chance de travailler avec une équipe de développeurs talentueux et expérimentés. Dès mon arrivée, ils m'ont accueillie chaleureusement et m'ont présenté les différents projets sur lesquels ils travaillaient. Ils m'ont également expliqué en détail comment fonctionnait leur société et leur processus de développement.
@@ -22,7 +18,7 @@ export default function Bilan() {
         <br/><br/>Je tiens aussi à remercier le Cnam et TVT, sans eux je n’aurais pas eu cette opportunité.
         </p>
         <h4 className="h2-bilan2">Si l'opportunité de revenir travailler pour La Boite Immo se présente, est-ce que j'envisagerais de la saisir ?</h4>
-        <p className="p-bilan2">Bien sûr, je serais ravi de pouvoir retravailler pour La Boite Immo si l'occasion se présentait.</p>
+        <p className="p-bilan2">Bien sûr, je serais ravi de pouvoir travailler pour La Boite Immo si l'occasion se présentait.</p>
         <Footer />
     </>
   )
